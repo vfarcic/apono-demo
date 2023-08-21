@@ -1,0 +1,6 @@
+project: dot
+providers:
+  google_secretmanager:
+    env:
+      APONO_TOKEN:
+        path: projects/vfarcic/secrets/apono-token/versions/1
